@@ -18,7 +18,7 @@ SELECT * FROM public."InvoiceLine" LIMIT 10;
 -- Actividad 2: conteo de registros por tabla
 SELECT COUNT(*) AS cantidad_artistas       FROM public."Artist";
 SELECT COUNT(*) AS cantidad_albumes        FROM public."Album";
-SELECT COUNT(*) AS cantidad_canciones      FROM public."Track";
+SELECT  COUNT(*) AS cantidad_canciones      FROM public."Track";
 SELECT COUNT(*) AS cantidad_clientes       FROM public."Customer";
 SELECT COUNT(*) AS cantidad_facturas       FROM public."Invoice";
 SELECT COUNT(*) AS cantidad_lineas_factura FROM public."InvoiceLine";
