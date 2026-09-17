@@ -8,6 +8,7 @@
 
 -- Actividad 1: primeras 10 filas de cada tabla
 SELECT * FROM public."Artist"      LIMIT 10;
+
 SELECT * FROM public."Album"       LIMIT 10;
 SELECT * FROM public."Track"       LIMIT 10;
 SELECT * FROM public."Customer"    LIMIT 10;
@@ -23,7 +24,7 @@ SELECT COUNT(*) AS cantidad_facturas       FROM public."Invoice";
 SELECT COUNT(*) AS cantidad_lineas_factura FROM public."InvoiceLine";
 
 -- Mismo conteo en una sola consulta, para comparar de un vistazo
-SELECT 'Artist'      AS tabla, COUNT(*) AS registros FROM public."Artist"
+SELECT  'Artist'      AS tabla, COUNT(*) AS registros FROM public."Artist"
 UNION ALL
 SELECT 'Album',       COUNT(*) FROM public."Album"
 UNION ALL
