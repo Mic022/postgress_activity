@@ -9,6 +9,7 @@
 -- Actividad 1: primeras 10 filas de cada tabla
 SELECT * FROM public."Artist"      LIMIT 10;
 
+
 SELECT * FROM public."Album"       LIMIT 10;
 SELECT * FROM public."Track"       LIMIT 10;
 SELECT * FROM public."Customer"    LIMIT 10;
